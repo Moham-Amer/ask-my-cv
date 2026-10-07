@@ -20,7 +20,7 @@ Robotics & Programming Coach (Volunteer), GDCA Charity, Damascus, 31/08/2024 –
 Translator / Transcriber, TED Translators Program, 02/2024 – present. Translates and transcribes TED talks. Profile: https://www.ted.com/profiles/46266229.
 
 == RESEARCH (team projects, co-authored) ==
-SyriSign: A Parallel Corpus for Arabic Text to Syrian Arabic Sign Language Translation (Junior Project, A+ mark). Placed in the top 6 out of 45+ submissions at the IEEE Jordan Section Research Paper Contest. Created the first Syrian Sign Language dataset (SyriSign): 1500 video samples across 150 unique lexical signs. The dataset was evaluated using three deep-learning architectures. Published as preprint: https://doi.org/10.48550/arXiv.2603.29219.
+SyriSign: A Parallel Corpus for Arabic Text to Syrian Arabic Sign Language Translation (Junior Project, A+ mark). Placed in the top 6 out of 45+ submissions at the IEEE Jordan Section Research Paper Contest. Created the first Syrian Sign Language dataset (SyriSign): 1500 video samples across 150 unique lexical signs. The dataset was evaluated using three deep-learning architectures. Published as preprint: https://doi.org/10.48550/arXiv.2603.29219. Code: github.com/Moham-Amer/SyriSign.
 
 SyriSign V2: Bridging Communication — Arabic Text-to-Sign Language Translator (Graduation Project, A+, highest mark among projects of that semester). 2,000 word-level motion clips covering 207 news-domain words, recorded across seven signers, stitched and normalized into continuous sentence-level sequences. Evaluated across deep-learning architectures designed for text-to-sign translation, including Sign-VQ Transformer (SignVQ) fine-tuning. Follow-up paper in preparation.
 
@@ -39,13 +39,13 @@ Azman — Museum Trip Booking App (Flutter, 22/01/2025 – 01/02/2025). Led deve
 
 MediSlot — Medical Appointments App (Flutter, 24/12/2024 – 31/12/2024). Healthcare Flutter app for managing medical appointments. Secure login, registration, and password recovery. Cubit for UI state control, improving performance and reducing unnecessary rebuilds. Dark/light theming and English/Arabic localization. Link: github.com/Moham-Amer/MediSlot.
 
-Balagh — Civic Reporting App (Flutter). Team app for reporting local problems and pinning them on an interactive map. Feature-first clean architecture with Bloc/Cubit, REST API integration, Arabic/English localization. Selected top 16 out of 200 teams at the Startup Syria Hackathon. Link: github.com/Moham-Amer/Azman (note: repo link as listed; search github.com/Moham-Amer for Balagh).
+Balagh — Civic Reporting App (Flutter). Team app for reporting local problems and pinning them on an interactive map. Feature-first clean architecture with Bloc/Cubit, REST API integration, Arabic/English localization. Selected top 16 out of 200 teams at the Startup Syria Hackathon.
 
 News App (Flutter, 11/2024). Real-time news application with REST API integration: dynamic news feed fetching live data from an external API, optimized state management with Cubit for smooth UI updates. Link: github.com/Moham-Amer/News-App.
 
 Halo — Jewelry E-Commerce (Vanilla JavaScript, 15/09/2025 – 30/09/2026). Jewelry storefront in plain HTML, CSS, and JavaScript (no framework): REST API product feed, debounced live search, product detail modals, auto-sliding carousel, localStorage-persisted cart, hand-rolled DOM manipulation. Links: https://github.com/Moham-Amer/Halo-Expanded and https://moham-amer.github.io/Halo-Expanded/.
 
-Music Store — Database-driven web app (ASP.NET / C# / SQL Server / IIS). Product catalogue, shopping cart and orders, user/admin roles, authentication, full CRUD. Built and hosted end-to-end on IIS with a SQL Server backend: relational schema design, server-side logic, access control. Link: github.com/Moham-Amer/Music-Store.
+Music Store — Database-driven web app (ASP.NET / C# / SQL Server / IIS). Product catalogue, shopping cart and orders, user/admin roles, authentication, full CRUD. Built and hosted end-to-end on IIS with a SQL Server backend: relational schema design, server-side logic, access control. (No public repo link; described from his CV.)
 
 AstraX (08/2023). Complete e-commerce website for an online clothing store: responsive frontend in HTML/CSS, backend in native PHP enabling dynamic product management. Link: github.com/AstraxOrg/AstraX.
 
@@ -54,6 +54,9 @@ Trip Booking System (Java, 06/2023). Trip booking system with multithreaded clie
 Robotics for Globe (RFG) participation project (09/2023 – 12/2023). Team project: robotic system using computer vision (OpenCV), networking with Python and Arduino, promoting injury prevention in the UN Sustainable Development Goals; drowning-prevention system. Ranked 5th in Damascus out of 22 teams.
 
 TrackerAid — Interactive Map & Tracking (React + Leaflet). Pick start and destination; calls a routing API for the real street path and animates a vehicle along it with live distance and progress; cancellable async requests prevent stale updates. Links: tracker-aid.vercel.app and github.com/Moham-Amer/TrackerAid.
+
+== SMALLER / LEARNING PROJECTS ==
+Earlier and course projects on his GitHub: Dwello (e-commerce site for renting houses, HTML — github.com/Moham-Amer/Dwello), Jadoo (e-commerce site for travel, github.com/Moham-Amer/Jadoo), lemonwares (e-commerce site for web hosting, github.com/Moham-Amer/lemonwares), Halo (jewelry e-commerce site, CSS — github.com/Moham-Amer/Halo; later rebuilt as Halo-Expanded in vanilla JS), Unit-Converter (unit conversion website, JavaScript — github.com/Moham-Amer/Unit-Converter), Password-Generator (password generator, JavaScript — github.com/Moham-Amer/Password-Generator), Scoreboard-Js-Project (scoreboard app, JavaScript — github.com/Moham-Amer/Scoreboard-Js-Project).
 
 == VOLUNTEERING ==
 Robotics Coach, GDCA Charity, Damascus (see Work Experience). TED Translators Program (see Work Experience). Damascus Marathon organizer: member of the organization team for the first Damascus marathon, organized by JCI Damascus (26/09/2025). Digital Youth Day volunteer: exhibition by Sanad Youth; part of the robotics showcase team using "Fatehi", a basic robot that helps children and teens learn simple robotics and programming concepts (12/08/2024, Damascus). AIU Cleaning Campaign volunteer: helped clean the streets of Damascus with colleagues from different faculties (09/01/2025).
