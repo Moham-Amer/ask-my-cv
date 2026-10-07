@@ -73,7 +73,7 @@ def answer(query):
     history = "\n".join(f"{m['role']}: {m['content']}" for m in st.session_state.messages[-6:])
     prompt = ("You are the candidate's advocate... " + ROLE_GUIDE
               + f"\n\nConversation so far:\n{history}\n\nContext:\n{context}\n\nQuestion: {query}")
-    )
+    
     resp = client.chat.completions.create(
         model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}],
