@@ -81,7 +81,7 @@ def answer(query):
     )
     ans = resp.choices[0].message.content
     refs = "\n".join(f"- {c['source']} (match {s:.2f})" for c, s in chunks)
-   return ans + f"\n\n**Sources:**\n{refs}"
+    return ans + f"\n\n**Sources:**\n{refs}"
 
 
 if "messages" not in st.session_state:
