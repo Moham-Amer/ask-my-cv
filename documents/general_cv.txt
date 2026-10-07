@@ -1,0 +1,77 @@
+MOHAMMAD AMER KHALIL — MASTER KNOWLEDGE FILE
+Last updated: 2026-10-07. Compiled from his CVs and Europass profile. Everything below is factual and may be used to answer questions about him.
+
+== IDENTITY & CONTACT ==
+Full name: Mohammad Amer Khalil. Date of birth: 08/05/2003. Nationality: Syrian. Based in Damascus, Syria. Phone: (+963) 935 718 668 (mobile). Email: mohammad.amer.khalil@gmail.com. LinkedIn: linkedin.com/in/mohammad-amer-khalil-3215152bb. GitHub: github.com/Moham-Amer.
+
+== SUMMARY ==
+Informatics Engineering graduate (Artificial Intelligence track) who combines deep-learning research with shipped software: React web apps, Flutter mobile apps, and Python ML pipelines. Co-authored published research on Arabic sign-language translation. Builds end-to-end, from dataset construction to deployed apps. Collaborative: works closely with designers, backend developers, and project managers. Constantly learning new technologies.
+
+== EDUCATION ==
+B.Sc. Informatics Engineering (Artificial Intelligence), Arab International University (AIU), Damascus, 30/09/2021 – 08/06/2026. GPA 3.41 (about 88%). Python was the primary language across AI coursework, data processing, algorithms, and projects. Field of study: Artificial Intelligence. Website: https://www.aiu.edu.sy. Thesis: "Bridging Communication: Arabic Text to Sign Language Translator" (SyriSign V2, graduation project — A+, highest mark among projects of that semester).
+
+== WORK EXPERIENCE ==
+Frontend Developer Intern, IXCoders, Damascus, 15/10/2025 – 15/01/2026. Built Termbi, a multi-feature React SPA (50+ components) as the internship capstone: authentication with protected routes, cart and checkout flow, live search over REST APIs, and user profile management. Applied modern React patterns: Zustand for client state, TanStack React Query for data fetching and caching, React Hook Form + Yup for validated forms, Material-UI for the component layer. Converted design mockups into responsive, production-ready pages using Bootstrap 5 (including RTL) and Tailwind CSS. Collaborated with the team on debugging and code reviews; kept code clean with ESLint and a Git-based workflow. Links: github.com/Moham-Amer/Termbi and termbi-app.vercel.app.
+
+Programming Teacher (Part Time), Mini Code Leader, Aug 2026 – present. Delivers interactive small-group coding lessons for young students, adapting pacing to each child's learning style and guiding problem-solving step by step. Available for remote part-time teaching (4 hours/day); comfortable teaching in Arabic and English; stable internet and reliable electricity.
+
+Robotics & Programming Coach (Volunteer), GDCA Charity, Damascus, 31/08/2024 – 31/10/2024. Delivered interactive robotics sessions for teens ages 12–18 (75+ hours). Explained programming concepts step by step using C++, Arduino, and logical thinking fundamentals transferable to Python. Guided students in building functional robots: obstacle-avoiding, line-following, and Bluetooth-controlled. Fostered teamwork, creativity, and problem-solving through practical challenges.
+
+Translator / Transcriber, TED Translators Program, 02/2024 – present. Translates and transcribes TED talks. Profile: https://www.ted.com/profiles/46266229.
+
+== RESEARCH (team projects, co-authored) ==
+SyriSign: A Parallel Corpus for Arabic Text to Syrian Arabic Sign Language Translation (Junior Project, A+ mark). Placed in the top 6 out of 45+ submissions at the IEEE Jordan Section Research Paper Contest. Created the first Syrian Sign Language dataset (SyriSign): 1500 video samples across 150 unique lexical signs. The dataset was evaluated using three deep-learning architectures. Published as preprint: https://doi.org/10.48550/arXiv.2603.29219.
+
+SyriSign V2: Bridging Communication — Arabic Text-to-Sign Language Translator (Graduation Project, A+, highest mark among projects of that semester). 2,000 word-level motion clips covering 207 news-domain words, recorded across seven signers, stitched and normalized into continuous sentence-level sequences. Evaluated across deep-learning architectures designed for text-to-sign translation, including Sign-VQ Transformer (SignVQ) fine-tuning. Follow-up paper in preparation.
+
+Arabic Text & Dialogue Summarization. Fine-tuned seq2seq transformers (AraT5v2, mT5, mBART) via Hugging Face for Arabic conversational dialogue summarization. Preprocessing with Qalsadi, NLTK, and CAMeL Tools; evaluation with ROUGE-1, ROUGE-2, ROUGE-L. Link: github.com/Moham-Amer/Arabic-Text-Dialogue-Summarization.
+
+Audio-based Emotion Detection. 7-class speech emotion classification on a ~13K-sample dataset: built a CNN from scratch (~61% test accuracy) and compared it against a fine-tuned wav2vec2 transfer-learning model (Python, Keras/TensorFlow, PyTorch). Link: github.com/Moham-Amer/Machine-Learning-Projects.
+
+Mental Health Treatment Prediction. Classification pipeline predicting the likelihood a survey respondent received psychological treatment: data cleaning, exploratory analysis, and model evaluation on a public mental-health survey dataset (Python, pandas, scikit-learn). Link: github.com/Moham-Amer/Machine-Learning-Projects.
+
+Search Engine from Scratch. Built a Python web crawler and text-processing pipeline constructing a positional inverted index, ranking results with TF-IDF scoring. Link: github.com/Moham-Amer/Search-Engine-Information-Retrieval.
+
+== SOFTWARE PROJECTS ==
+Exclusive — React E-Commerce Store (15/08/2025 – 01/10/2026). Complete e-commerce single-page app in React 19 + Vite: product catalog with search and filtering, persistent cart and wishlist, authentication with validated sign-up/login forms. Feature-first architecture with 40+ reusable components; TanStack React Query + Axios for server state, Zustand for client state, fully responsive Material-UI interface, route-level error boundary, unit and component tests (Vitest, React Testing Library). Deployed to production on Vercel. Links: https://github.com/Moham-Amer/Exclusive and https://exclusive-shop-app.vercel.app/.
+
+Azman — Museum Trip Booking App (Flutter, 22/01/2025 – 01/02/2025). Led development of a dynamic Flutter app for browsing historical eras and booking museum trips. Implemented a full event booking system for reserving museum trips and exhibitions. Secure authentication (login, registration). English/Arabic multi-language support with dynamic UI updates. Modular, scalable architecture with reusable components. Bloc for state management, efficient API calls. Collaborated with a UI/UX designer on accessibility and experience. Link: github.com/Moham-Amer/Azman.
+
+MediSlot — Medical Appointments App (Flutter, 24/12/2024 – 31/12/2024). Healthcare Flutter app for managing medical appointments. Secure login, registration, and password recovery. Cubit for UI state control, improving performance and reducing unnecessary rebuilds. Dark/light theming and English/Arabic localization. Link: github.com/Moham-Amer/MediSlot.
+
+Balagh — Civic Reporting App (Flutter). Team app for reporting local problems and pinning them on an interactive map. Feature-first clean architecture with Bloc/Cubit, REST API integration, Arabic/English localization. Selected top 16 out of 200 teams at the Startup Syria Hackathon. Link: github.com/Moham-Amer/Azman (note: repo link as listed; search github.com/Moham-Amer for Balagh).
+
+News App (Flutter, 11/2024). Real-time news application with REST API integration: dynamic news feed fetching live data from an external API, optimized state management with Cubit for smooth UI updates. Link: github.com/Moham-Amer/News-App.
+
+Halo — Jewelry E-Commerce (Vanilla JavaScript, 15/09/2025 – 30/09/2026). Jewelry storefront in plain HTML, CSS, and JavaScript (no framework): REST API product feed, debounced live search, product detail modals, auto-sliding carousel, localStorage-persisted cart, hand-rolled DOM manipulation. Links: https://github.com/Moham-Amer/Halo-Expanded and https://moham-amer.github.io/Halo-Expanded/.
+
+Music Store — Database-driven web app (ASP.NET / C# / SQL Server / IIS). Product catalogue, shopping cart and orders, user/admin roles, authentication, full CRUD. Built and hosted end-to-end on IIS with a SQL Server backend: relational schema design, server-side logic, access control. Link: github.com/Moham-Amer/Music-Store.
+
+AstraX (08/2023). Complete e-commerce website for an online clothing store: responsive frontend in HTML/CSS, backend in native PHP enabling dynamic product management. Link: github.com/AstraxOrg/AstraX.
+
+Trip Booking System (Java, 06/2023). Trip booking system with multithreaded client-server architecture: real-time reservation system using Java socket programming; multithreaded server handling multiple simultaneous client requests. Link: github.com/Moham-Amer/Trip-Booking-System.
+
+Robotics for Globe (RFG) participation project (09/2023 – 12/2023). Team project: robotic system using computer vision (OpenCV), networking with Python and Arduino, promoting injury prevention in the UN Sustainable Development Goals; drowning-prevention system. Ranked 5th in Damascus out of 22 teams.
+
+TrackerAid — Interactive Map & Tracking (React + Leaflet). Pick start and destination; calls a routing API for the real street path and animates a vehicle along it with live distance and progress; cancellable async requests prevent stale updates. Links: tracker-aid.vercel.app and github.com/Moham-Amer/TrackerAid.
+
+== VOLUNTEERING ==
+Robotics Coach, GDCA Charity, Damascus (see Work Experience). TED Translators Program (see Work Experience). Damascus Marathon organizer: member of the organization team for the first Damascus marathon, organized by JCI Damascus (26/09/2025). Digital Youth Day volunteer: exhibition by Sanad Youth; part of the robotics showcase team using "Fatehi", a basic robot that helps children and teens learn simple robotics and programming concepts (12/08/2024, Damascus). AIU Cleaning Campaign volunteer: helped clean the streets of Damascus with colleagues from different faculties (09/01/2025).
+
+== CERTIFICATES & TRAINING ==
+RFG (Robotics for Globe) Workshop — Certificate of Attendance, Sanad Youth, 09/2023 – 12/2023. 120+ hours covering design thinking, research skills, SDGs, robotics science, presentation skills. Freelancers Hub Flutter Course — Certificate of Attendance, Sanad Youth, 09/2024 – 12/2024. 160 hours of Flutter training (app architecture, state management, production-style apps, team project competition). Frontend Development (React), Sanad Youth (Keywork program), Aug – Oct 2025.
+
+== TECHNICAL SKILLS ==
+Programming languages: Python (advanced — primary language for AI and problem-solving), JavaScript (ES6+), TypeScript (working knowledge), C#, Java, C++, Dart, PHP (basic, via AstraX), Scratch (educational/teaching use), Arduino (C++). AI & ML: PyTorch, TensorFlow/Keras, Hugging Face Transformers, OpenCV, scikit-learn, LLM APIs & prompt engineering, guardrails management, NLP preprocessing (Qalsadi, NLTK, CAMeL Tools), evaluation metrics (ROUGE, classification metrics). Web frontend: React 19 (Hooks, Context, TanStack Query, Zustand, React Hook Form, Yup), HTML5, CSS3, Tailwind CSS, Material-UI, Bootstrap 5 (including RTL), Vite, Vitest, React Testing Library. Mobile: Flutter & Dart, Bloc, Cubit, MVC design pattern, Firebase, Material Design, responsive layouts, dark/light theming, Arabic/English RTL localization, maps & location. Backend & data: ASP.NET, SQL Server, SQL, REST APIs, Postman, IIS hosting and configuration. Software practices: OOP, clean code, debugging, design patterns, algorithms & data structures, ESLint, Git & GitHub, code review, Agile teamwork. Tools: Visual Studio, VS Code, Android Studio, Postman, Firebase, Linux and Windows dev environments, Jupyter.
+
+== COMMUNICATION & INTERPERSONAL SKILLS ==
+Active listening, emotional intelligence, teamwork, mentorship and knowledge sharing. Explaining technical concepts to non-technical audiences (teaching children and teens). Collaborating with designers, backend developers, and project managers.
+
+== LANGUAGES ==
+Arabic: native (mother tongue). English: C1 (listening, reading, spoken production, spoken interaction, writing — all C1). Spanish: A1 (basic user).
+
+== AVAILABILITY ==
+Available full-time, on-site in Damascus, ready to start immediately. Also available for remote part-time teaching (4 hours/day), in Arabic and English; stable internet connection and reliable electricity.
+
+== WHAT HE IS LOOKING FOR ==
+Software engineering roles (AI/ML, frontend, mobile, or full-stack) where he can build and ship real products. Especially motivated by AI engineering and Arabic-language technology. Attending SYNC'26 (Oct 9–10, 2026, Damascus) as a selected top talent to meet employers.

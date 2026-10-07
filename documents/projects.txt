@@ -1,0 +1,19 @@
+Exclusive — E-commerce web app (React 19). Hardest part: keeping cart/wishlist
+state consistent
+across 40+ components; solved with Zustand + TanStack Query. Learned: test coverage
+(Vitest)
+catches regressions before users do.
+Azman — Museum booking app (Flutter). Hardest part: bilingual AR/EN UI that updates
+dynamically;
+learned RTL layout discipline working alongside a UI/UX designer.
+Balagh — Civic reporting app (Flutter). Top 16 of 200 teams at Startup Syria
+Hackathon.
+Hardest part: clean feature-first architecture under hackathon time pressure.
+SyriSign — Graduation research (team project, I co-authored): Arabic text to sign
+language,
+deep-learning translator; preprint + IEEE Jordan top-6 finalist. My focus: dataset
+construction
+and model training/evaluation.
+Music Store — ASP.NET/C#/SQL Server app I built and hosted end-to-end on IIS
+myself.
+Learned: relational schema design and the unglamorous work of actually deploying.
