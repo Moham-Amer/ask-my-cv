@@ -3,17 +3,12 @@ from sentence_transformers import SentenceTransformer
 import numpy as np, os, glob
 from groq import Groq
 
-# --- 1. CONFIGURATION & SECRETS CHANGE ---
-# Pulls the Groq API key securely from Streamlit Cloud Secrets instead of os.environ
 if "GROQ_API_KEY" in st.secrets:
     api_key = st.secrets["GROQ_API_KEY"]
 else:
-    # Fallback for running locally on your laptop
     api_key = os.environ.get("GROQ_API_KEY", "")
 
 client = Groq(api_key=api_key)
-
-# --- 2. DATA LOADING & PROCESSING (UNCHANGED) ---
 docs = []
 for path in sorted(glob.glob("documents/*.txt")):
     with open(path, encoding="utf-8") as f:
@@ -23,8 +18,8 @@ for path in sorted(glob.glob("documents/*.txt")):
         if len(para) > 40:
             docs.append({"text": para, "source": os.path.basename(path).replace(".txt", "")})
 
-# --- 3. MODEL INITIALIZATION (STREAMLIT CACHED) ---
-# We add @st.cache_resource so your app doesn't re-download the model on every click!
+
+# @st.cache_resource so your app doesn't re-download the model on every click
 @st.cache_resource
 def load_model_and_embeddings():
     model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
@@ -80,7 +75,7 @@ def answer(query, role):
     )
     ans = resp.choices[0].message.content
     refs = "\n".join(f"- {c['source']} (match {s:.2f})" for c, s in chunks)
-    return ans + f"\n\n**Sources:**\n{refs}"
+    return ans
 
 # --- 4. NEW STREAMLIT INTERFACE CODE (REPLACES GRADIO) ---
 st.set_page_config(page_title="AskMyCV", page_icon="📄")
@@ -103,15 +98,6 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Quick-click example buttons
-st.markdown("**Try asking:**")
-col1, col2, col3 = st.columns(3)
-example_query = None
-if col1.button("Do you have backend experience?"):
-    example_query = "Do you have backend experience?"
-if col2.button("هل لديك خبرة في الذكاء الاصطناعي؟"):
-    example_query = "هل لديك خبرة في الذكاء الاصطناعي؟"
-if col3.button("Tell me about a challenging project"):
-    example_query = "Tell me about a challenging project"
 
 # Get user input from chat bar or example buttons
 user_query = st.chat_input("Ask a question about my CV...")
