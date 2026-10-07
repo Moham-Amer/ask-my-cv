@@ -102,7 +102,7 @@ if query_to_process:
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            bot_response = answer(query_to_process, role)
+            bot_response = answer(query_to_process)
             st.markdown(bot_response)
             
     st.session_state.messages.append({"role": "assistant", "content": bot_response})
