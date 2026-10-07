@@ -3,6 +3,17 @@ from sentence_transformers import SentenceTransformer
 import numpy as np, os, glob
 from groq import Groq
 
+import hashlib
+def docs_hash():
+    h = hashlib.md5()
+    for path in sorted(glob.glob("documents/*.txt")):
+        with open(path, 'rb') as f: h.update(f.read())
+    return h.hexdigest()
+
+
+
+
+
 if "GROQ_API_KEY" in st.secrets:
     api_key = st.secrets["GROQ_API_KEY"]
 else:
@@ -21,12 +32,12 @@ for path in sorted(glob.glob("documents/*.txt")):
 
 # @st.cache_resource so your app doesn't re-download the model on every click
 @st.cache_resource
-def load_model_and_embeddings():
+def load_model_and_embeddings(_file_hash):
     model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
     embs = model.encode([d["text"] for d in docs], normalize_embeddings=True)
     return model, embs
 
-model, embs = load_model_and_embeddings()
+model, embs = load_model_and_embeddings(docs_hash())
 
 def retrieve(query, k=3):
     q = model.encode([query], normalize_embeddings=True)[0]
