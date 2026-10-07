@@ -101,7 +101,7 @@ for message in st.session_state.messages:
 
 # Get user input from chat bar or example buttons
 user_query = st.chat_input("Ask a question about my CV...")
-query_to_process = user_query or example_query
+query_to_process = user_query 
 
 if query_to_process:
     # Add user message to display
