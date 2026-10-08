@@ -1,6 +1,6 @@
 import streamlit as st
 from sentence_transformers import SentenceTransformer
-import numpy as np, os, glob
+import numpy as np, os, glob, re
 from groq import Groq
 
 import hashlib
@@ -39,8 +39,19 @@ def load_model_and_embeddings(file_hash):
 
 model, embs = load_model_and_embeddings(docs_hash())
 
-def retrieve(query, k=3):
-    q = model.encode([query], normalize_embeddings=True)[0]
+# Acronym expansion: the embedding model under-represents abbreviations
+# ("nlp" scores ~0.02 vs "natural language processing"), so spell out the
+# few unambiguous ones before encoding. Deliberately minimal: "cv" is NOT
+# expanded because it usually means "resume" here.
+ACRONYMS = {"nlp": "natural language processing"}
+
+def expand_acronyms(query):
+    q = query
+    for short, full in ACRONYMS.items():
+        q = re.sub(r"\b" + short + r"\b", full, q, flags=re.IGNORECASE)
+    return q
+def retrieve(query, k=6):
+    q = model.encode([expand_acronyms(query)], normalize_embeddings=True)[0]
     scores = embs @ q
     idx = np.argsort(scores)[::-1][:k]
     return [(docs[i], float(scores[i])) for i in idx]
@@ -79,11 +90,11 @@ ROLE_GUIDE = """If the user mentions a hiring role anywhere in the conversation
 If no role is mentioned: balanced answer, AI research first, then shipped software."""
 
 def answer(query):
-    chunks = retrieve(query, k=4)
+    chunks = retrieve(query, k=6)
     if not chunks or chunks[0][1] < 0.45:
         return ("I don't have verified information about that. "
                 "Try asking about my projects, experience, skills, or education.")
-    chunks = [(c, s) for c, s in chunks if s >= 0.40][:3]
+    chunks = [(c, s) for c, s in chunks if s >= 0.38][:4]
     context = "\n\n".join(f"[{c['source']}] {c['text']}" for c, _ in chunks)
     history = "\n".join(f"{m['role']}: {m['content']}" for m in st.session_state.messages[-6:])
     prompt = ("You are Mohammad Amer Khalil. Answer in the first person, as if you ARE him —use 'I' and 'my', never refer to him in the third person.You are the candidate's advocate. Present him in the strongest honest light: lead with relevant strengths, frame breadth as end-to-end delivery ability. Never invent weaknesses. If the Context below contains the answer, use it — even if it appears in a FAQ entry. Only say information is missing when the Context truly does not contain it. " 
