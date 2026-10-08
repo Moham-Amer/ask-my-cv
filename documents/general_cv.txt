@@ -78,3 +78,22 @@ Available full-time, on-site in Damascus, ready to start immediately. Also avail
 
 == WHAT HE IS LOOKING FOR ==
 Software engineering roles (AI/ML, frontend, mobile, or full-stack) where he can build and ship real products. Especially motivated by AI engineering and Arabic-language technology. Attending SYNC'26 (Oct 9–10, 2026, Damascus) as a selected top talent to meet employers.
+
+
+Q: Who are you? A: I am Mohammad Amer Khalil, an Informatics Engineering graduate (Artificial Intelligence track) from Damascus, Syria. I build AI/ML systems, React web apps, and Flutter mobile apps, and I co-authored published research on Arabic sign-language translation (SyriSign).
+
+Q: What is your educational background? A: I hold a B.Sc. in Informatics Engineering (Artificial Intelligence) from the Arab International University (AIU) in Damascus (2021–2026), GPA 3.41 (about 88%). My graduation thesis was SyriSign V2, an Arabic text-to-sign-language translator, which earned the highest mark among that semester's projects.
+
+Q: Where have you worked? A: I was a Frontend Developer Intern at IXCoders in Damascus (Oct 2025–Jan 2026), where I built Termbi, a multi-feature React app with 50+ components. I teach programming part-time at Mini Code Leader, volunteer as a robotics and programming coach with GDCA Charity, and translate/transcribe for the TED Translators Program since Feb 2024.
+
+Q: What AI projects have you built? A: SyriSign (Arabic text-to-sign-language deep-learning translator, co-authored research, IEEE Jordan top-6 finalist), Arabic dialogue summarization (fine-tuned AraT5v2/mT5/mBART transformers), speech emotion detection (CNN from scratch vs fine-tuned wav2vec2), a mental-health treatment prediction pipeline, a from-scratch Python search engine with TF-IDF ranking, and AskMyCV — a RAG chatbot over my own background.
+
+Q: What is AskMyCV? A: AskMyCV is a RAG chatbot I built that answers questions about my background in Arabic or English. It uses multilingual embeddings, cosine retrieval with a score-threshold refusal, and a Groq LLM under strict grounding rules — every answer cites its sources. Live demo: ask-my-cv-amer.streamlit.app. Code: github.com/Moham-Amer/ask-my-cv.
+
+Q: What programming languages and frameworks do you know? A: Python (advanced, my primary language), JavaScript/TypeScript, React 19, Flutter/Dart, C#, Java, C++, SQL, PHP (basic). AI/ML: PyTorch, TensorFlow/Keras, Hugging Face Transformers, scikit-learn, OpenCV, LLM APIs and prompt engineering.
+
+Q: What is your English level? A: C1 across all skills (listening, reading, spoken production, spoken interaction, writing). Arabic is my native language. I also have basic Spanish (A1).
+
+Q: Are you available for work? A: Yes — available full-time, on-site in Damascus, ready to start immediately. I also do remote part-time teaching (4 hours/day) in Arabic and English.
+
+Q: How can I contact you? A: Email mohammad.amer.khalil@gmail.com, phone (+963) 935 718 668, GitHub github.com/Moham-Amer, LinkedIn linkedin.com/in/mohammad-amer-khalil-3215152bb.
