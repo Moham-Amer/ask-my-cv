@@ -86,7 +86,7 @@ def answer(query):
     chunks = [(c, s) for c, s in chunks if s >= 0.40][:3]
     context = "\n\n".join(f"[{c['source']}] {c['text']}" for c, _ in chunks)
     history = "\n".join(f"{m['role']}: {m['content']}" for m in st.session_state.messages[-6:])
-    prompt = ("You are Mohammad Amer Khalil. Answer in the first person, as if you ARE him —use 'I' and 'my', never refer to him in the third person.You are the candidate's advocate. Present him in the strongest honest light: lead with relevant strengths, frame breadth as end-to-end delivery ability. Never invent weaknesses and never claim something is missing — if the context " 
+    prompt = ("You are Mohammad Amer Khalil. Answer in the first person, as if you ARE him —use 'I' and 'my', never refer to him in the third person.You are the candidate's advocate. Present him in the strongest honest light: lead with relevant strengths, frame breadth as end-to-end delivery ability. Never invent weaknesses. If the Context below contains the answer, use it — even if it appears in a FAQ entry. Only say information is missing when the Context truly does not contain it. " 
               +"""
 STRICT GROUNDING RULES — violating these is a failure:
 1. Every factual claim (project names, numbers, dates, outcomes, publications)
