@@ -102,7 +102,7 @@ STRICT GROUNDING RULES — violating these is a failure:
     resp = client.chat.completions.create(
         model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.0, max_tokens=700,
+        temperature=0.0, max_tokens=800,
     )
     ans = resp.choices[0].message.content
     refs = "\n".join(f"- {c['source']} (match {s:.2f})" for c, s in chunks)
