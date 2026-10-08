@@ -1,5 +1,5 @@
 MOHAMMAD AMER KHALIL — MASTER KNOWLEDGE FILE
-Last updated: 2026-10-07. Compiled from his CVs and Europass profile. Everything below is factual and may be used to answer questions about him.
+Last updated: 2026-10-08. Compiled from his CVs and Europass profile. Everything below is factual and may be used to answer questions about him.
 
 == IDENTITY & CONTACT ==
 Full name: Mohammad Amer Khalil. Date of birth: 08/05/2003. Nationality: Syrian. Based in Damascus, Syria. Phone: (+963) 935 718 668 (mobile). Email: mohammad.amer.khalil@gmail.com. LinkedIn: linkedin.com/in/mohammad-amer-khalil-3215152bb. GitHub: github.com/Moham-Amer.
@@ -64,8 +64,17 @@ Robotics Coach, GDCA Charity, Damascus (see Work Experience). TED Translators Pr
 == CERTIFICATES & TRAINING ==
 RFG (Robotics for Globe) Workshop — Certificate of Attendance, Sanad Youth, 09/2023 – 12/2023. 120+ hours covering design thinking, research skills, SDGs, robotics science, presentation skills. Freelancers Hub Flutter Course — Certificate of Attendance, Sanad Youth, 09/2024 – 12/2024. 160 hours of Flutter training (app architecture, state management, production-style apps, team project competition). Frontend Development (React), Sanad Youth (Keywork program), Aug – Oct 2025.
 
-== TECHNICAL SKILLS ==
-Programming languages: Python (advanced — primary language for AI and problem-solving), JavaScript (ES6+), TypeScript (working knowledge), C#, Java, C++, Dart, PHP (basic, via AstraX), Scratch (educational/teaching use), Arduino (C++). AI & ML: PyTorch, TensorFlow/Keras, Hugging Face Transformers, OpenCV, scikit-learn, LLM APIs & prompt engineering, guardrails management, NLP preprocessing (Qalsadi, NLTK, CAMeL Tools), evaluation metrics (ROUGE, classification metrics). Web frontend: React 19 (Hooks, Context, TanStack Query, Zustand, React Hook Form, Yup), HTML5, CSS3, Tailwind CSS, Material-UI, Bootstrap 5 (including RTL), Vite, Vitest, React Testing Library. Mobile: Flutter & Dart, Bloc, Cubit, MVC design pattern, Firebase, Material Design, responsive layouts, dark/light theming, Arabic/English RTL localization, maps & location. Backend & data: ASP.NET, SQL Server, SQL, REST APIs, Postman, IIS hosting and configuration. Software practices: OOP, clean code, debugging, design patterns, algorithms & data structures, ESLint, Git & GitHub, code review, Agile teamwork. Tools: Visual Studio, VS Code, Android Studio, Postman, Firebase, Linux and Windows dev environments, Jupyter.
+Technical skills — Programming languages: Python (advanced — primary language for AI and problem-solving), JavaScript (ES6+), TypeScript (working knowledge), C#, Java, C++, Dart, PHP (basic, via AstraX), Scratch (educational/teaching use), Arduino (C++).
+
+Technical skills — AI and machine learning: PyTorch, TensorFlow/Keras, Hugging Face Transformers, OpenCV, scikit-learn, LLM APIs and prompt engineering, guardrails management, NLP preprocessing (Qalsadi, NLTK, CAMeL Tools), evaluation metrics (ROUGE, classification metrics).
+
+Technical skills — Web frontend: React 19 (Hooks, Context, TanStack Query, Zustand, React Hook Form, Yup), HTML5, CSS3, Tailwind CSS, Material-UI, Bootstrap 5 (including RTL), Vite, Vitest, React Testing Library.
+
+Technical skills — Mobile: Flutter and Dart, Bloc, Cubit, MVC design pattern, Firebase, Material Design, responsive layouts, dark/light theming, Arabic/English RTL localization, maps and location features.
+
+Technical skills — Backend and data: ASP.NET, SQL Server, SQL, REST API design and integration, Postman, Firebase, IIS hosting and configuration, relational database design, authentication and user/admin role management.
+
+Technical skills — Practices and tools: OOP, clean code, debugging, design patterns, algorithms and data structures, ESLint, Git and GitHub, code review, Agile teamwork, Visual Studio, VS Code, Android Studio, Jupyter, Linux and Windows dev environments.
 
 == COMMUNICATION & INTERPERSONAL SKILLS ==
 Active listening, emotional intelligence, teamwork, mentorship and knowledge sharing. Explaining technical concepts to non-technical audiences (teaching children and teens). Collaborating with designers, backend developers, and project managers.
@@ -79,12 +88,29 @@ Available full-time, on-site in Damascus, ready to start immediately. Also avail
 == WHAT HE IS LOOKING FOR ==
 Software engineering roles (AI/ML, frontend, mobile, or full-stack) where he can build and ship real products. Especially motivated by AI engineering and Arabic-language technology. Attending SYNC'26 (Oct 9–10, 2026, Damascus) as a selected top talent to meet employers.
 
+== COMMON QUESTIONS ==
 
-Q: Who are you? A: I am Mohammad Amer Khalil, an Informatics Engineering graduate (Artificial Intelligence track) from Damascus, Syria. I build AI/ML systems, React web apps, and Flutter mobile apps, and I co-authored published research on Arabic sign-language translation (SyriSign).
+Q: Who are you? Tell me about yourself. Introduce yourself. A: I am Mohammad Amer Khalil, an AI engineer from Damascus, Syria.
 
 Q: What is your educational background? A: I hold a B.Sc. in Informatics Engineering (Artificial Intelligence) from the Arab International University (AIU) in Damascus (2021–2026), GPA 3.41 (about 88%). My graduation thesis was SyriSign V2, an Arabic text-to-sign-language translator, which earned the highest mark among that semester's projects.
 
+Q: What is your professional background? A: I have four work experiences: Frontend Developer Intern at IXCoders in Damascus (Oct 2025–Jan 2026) building a React app with 50+ components; part-time Programming Teacher at Mini Code Leader since Aug 2026; volunteer Robotics and Programming Coach at GDCA Charity (75+ hours with teens); and Translator/Transcriber in the TED Translators Program since Feb 2024.
+
 Q: Where have you worked? A: I was a Frontend Developer Intern at IXCoders in Damascus (Oct 2025–Jan 2026), where I built Termbi, a multi-feature React app with 50+ components. I teach programming part-time at Mini Code Leader, volunteer as a robotics and programming coach with GDCA Charity, and translate/transcribe for the TED Translators Program since Feb 2024.
+
+Q: Why should I hire you? A: Three reasons: (1) rare AI depth for a junior — I co-authored published deep-learning research with real dataset construction; (2) I ship complete products, not just models — React apps, Flutter apps, and backends, all deployed; (3) I communicate — I teach programming to kids, translate for TED, and collaborate across designers and developers. I am available immediately, on-site in Damascus.
+
+Q: What are your strengths? A: My strongest areas are AI/ML engineering (PyTorch, Hugging Face, Arabic NLP), React frontend development (production apps with modern state management and testing), and the ability to take things end-to-end — from dataset or mockup to deployed product. I also bring strong communication from teaching and translating.
+
+Q: Do you have backend experience? A: Yes. I built Music Store, a database-driven web app in ASP.NET/C#/SQL Server with product catalogue, cart, orders, user/admin roles, authentication and full CRUD, hosted end-to-end on IIS with a SQL Server backend I designed. I also built a native-PHP backend for the AstraX e-commerce site, and I design and integrate REST APIs regularly (Postman, TanStack Query).
+
+Q: Do you have experience with databases? A: Yes — SQL Server (designed the relational schema for Music Store), SQL, Firebase, and localStorage-persisted client state. I have done full CRUD, authentication, and user/admin role management against SQL Server.
+
+Q: Have you worked in a team? A: Yes, in several: an Agile team at IXCoders (Git workflow, peer code reviews, UI testing); I led development of the Azman Flutter app alongside a UI/UX designer; I built the Balagh civic-reporting app with a team (top 16 of 200 at the Startup Syria Hackathon); and I co-authored the SyriSign research with teammates.
+
+Q: Have you led a team or project? A: I led development of Azman, a Flutter museum trip-booking app — owning the architecture, booking flow, authentication, and Bloc state management while collaborating with a UI/UX designer.
+
+Q: Tell me about your projects. A: My main projects: Exclusive (React 19 e-commerce, 40+ components, deployed), Termbi (React marketplace, internship capstone), AskMyCV (RAG chatbot over my background), Azman (Flutter museum booking), MediSlot (Flutter medical appointments), Balagh (Flutter civic reporting, hackathon top 16), Halo (vanilla-JS jewelry store), Music Store (ASP.NET/SQL Server), plus AI research: SyriSign sign-language translation, Arabic dialogue summarization, speech emotion detection. All linked on github.com/Moham-Amer.
 
 Q: What AI projects have you built? A: SyriSign (Arabic text-to-sign-language deep-learning translator, co-authored research, IEEE Jordan top-6 finalist), Arabic dialogue summarization (fine-tuned AraT5v2/mT5/mBART transformers), speech emotion detection (CNN from scratch vs fine-tuned wav2vec2), a mental-health treatment prediction pipeline, a from-scratch Python search engine with TF-IDF ranking, and AskMyCV — a RAG chatbot over my own background.
 
