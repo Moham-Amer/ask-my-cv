@@ -123,3 +123,29 @@ Q: What is your English level? A: C1 across all skills (listening, reading, spok
 Q: Are you available for work? A: Yes — available full-time, on-site in Damascus, ready to start immediately. I also do remote part-time teaching (4 hours/day) in Arabic and English.
 
 Q: How can I contact you? A: Email mohammad.amer.khalil@gmail.com, phone (+963) 935 718 668, GitHub github.com/Moham-Amer, LinkedIn linkedin.com/in/mohammad-amer-khalil-3215152bb.
+
+== CORE CAPABILITIES ==
+
+Computer vision: I built a robotic system using computer vision (OpenCV) with Python and Arduino for Robotics for Globe.
+
+Sign-language video AI: my co-authored SyriSign research applies deep learning to sign-language video — 1500 video samples, 2000 motion clips.
+
+SyriSign is an Arabic text to sign language translation system I co-authored using deep learning.
+
+Arabic NLP: I fine-tuned transformers (AraT5v2, mT5, mBART) for Arabic dialogue summarization, evaluated with ROUGE.
+
+Deep learning: PyTorch and TensorFlow/Keras — CNN from scratch for speech emotion classification (~61% accuracy), fine-tuned wav2vec2 and Hugging Face transformers.
+
+RAG and LLM apps: I built AskMyCV, a RAG chatbot using multilingual embeddings, cosine retrieval, and a Groq LLM.
+
+Backend development: Music Store end-to-end in ASP.NET/C#/SQL Server (schema design, CRUD, auth, IIS hosting); native-PHP backend for AstraX.
+
+Frontend development: production React apps — Exclusive (React 19, 40+ components) and Termbi (50+ components) — with Zustand, TanStack Query, and Vitest tests.
+
+Mobile development: Flutter apps with Bloc/Cubit — I led Azman (museum booking); also MediSlot, Balagh, and a news app.
+
+Databases: SQL Server schema design, Firebase, full CRUD with authentication and role management.
+
+Robotics: OpenCV, Python, and Arduino in Robotics for Globe (ranked 5th in Damascus out of 22 teams); 75+ hours coaching teens in C++/Arduino robotics.
+
+E-commerce: I built four e-commerce experiences — Exclusive, Termbi, AstraX, and Halo.
