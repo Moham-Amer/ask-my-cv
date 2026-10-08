@@ -32,7 +32,7 @@ for path in sorted(glob.glob("documents/*.txt")):
 
 # @st.cache_resource so your app doesn't re-download the model on every click
 @st.cache_resource
-def load_model_and_embeddings(_file_hash):
+def load_model_and_embeddings(file_hash):
     model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
     embs = model.encode([d["text"] for d in docs], normalize_embeddings=True)
     return model, embs
