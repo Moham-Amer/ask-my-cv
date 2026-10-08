@@ -80,7 +80,7 @@ If no role is mentioned: balanced answer, AI research first, then shipped softwa
 
 def answer(query):
     chunks = retrieve(query, k=4)
-    if not chunks or chunks[0][1] < 0.50:
+    if not chunks or chunks[0][1] < 0.45:
         return ("I don't have verified information about that. "
                 "Try asking about my projects, experience, skills, or education.")
     chunks = [(c, s) for c, s in chunks if s >= 0.40][:3]
