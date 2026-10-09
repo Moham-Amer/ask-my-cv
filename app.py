@@ -10,9 +10,7 @@ def docs_hash():
         with open(path, 'rb') as f: h.update(f.read())
     return h.hexdigest()
 
-
-
-
+
 
 if "GROQ_API_KEY" in st.secrets:
     api_key = st.secrets["GROQ_API_KEY"]
