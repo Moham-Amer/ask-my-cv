@@ -10,8 +10,6 @@ def docs_hash():
         with open(path, 'rb') as f: h.update(f.read())
     return h.hexdigest()
 
-
-
 if "GROQ_API_KEY" in st.secrets:
     api_key = st.secrets["GROQ_API_KEY"]
 else:
@@ -53,28 +51,6 @@ def retrieve(query, k=6):
     scores = embs @ q
     idx = np.argsort(scores)[::-1][:k]
     return [(docs[i], float(scores[i])) for i in idx]
-
-ROLE_FRAMING = {
-    "AI Engineer": (
-        "The asker is hiring for an AI Engineer role. Lead with AI/ML experience "
-        "(research, Arabic NLP, deep learning, transformers, LLM APIs). Mention software "
-        "projects only briefly, as evidence that he ships real products around AI work."
-    ),
-    "Frontend Developer": (
-        "The asker is hiring for a Frontend Developer role. Lead with React experience "
-        "(production apps, component architecture, state management, testing). Mention AI/ML "
-        "only briefly, as differentiating depth."
-    ),
-    "Mobile Developer": (
-        "The asker is hiring for a Mobile Developer role. Lead with Flutter experience "
-        "(shipped apps, Bloc/Cubit, clean architecture, bilingual UI). Mention other areas "
-        "only briefly."
-    ),
-    "General / Other": (
-        "Give a balanced answer across his background: AI research first (his differentiator), "
-        "then shipped software (web, mobile, backend) as proof he delivers end-to-end."
-    ),
-}
 
 st.set_page_config(page_title="AskMyCV", page_icon="📄")
 st.title("AskMyCV — اسأل عن مؤهلاتي")
