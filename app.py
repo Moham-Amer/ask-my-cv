@@ -65,10 +65,10 @@ If no role is mentioned: balanced answer, AI research first, then shipped softwa
 
 def answer(query):
     chunks = retrieve(query, k=6)
-    if not chunks or chunks[0][1] < 0.45:
+    if not chunks or chunks[0][1] < 0.70:
         return ("I don't have verified information about that. "
                 "Try asking about my projects, experience, skills, or education.")
-    chunks = [(c, s) for c, s in chunks if s >= 0.38][:4]
+    chunks = [(c, s) for c, s in chunks if s >= 0.50][:4]
     context = "\n\n".join(f"[{c['source']}] {c['text']}" for c, _ in chunks)
     history = "\n".join(f"{m['role']}: {m['content']}" for m in st.session_state.messages[-6:])
     prompt = ("You are Mohammad Amer Khalil. Answer in the first person, as if you ARE him —use 'I' and 'my', never refer to him in the third person.You are the candidate's advocate. Present him in the strongest honest light: lead with relevant strengths, frame breadth as end-to-end delivery ability. Never invent weaknesses. If the Context below contains the answer, use it — even if it appears in a FAQ entry. Only say information is missing when the Context truly does not contain it. " 
@@ -87,7 +87,7 @@ STRICT GROUNDING RULES — violating these is a failure:
     resp = client.chat.completions.create(
         model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.0, max_tokens=800,
+        temperature=0.7, max_tokens=800,
     )
     ans = resp.choices[0].message.content
     refs = "\n".join(f"- {c['source']} (match {s:.2f})" for c, s in chunks)
